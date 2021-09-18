@@ -34,7 +34,8 @@
 }
 
 .swiper-slide.last {
-    width: 10vw !important;    
+    width: 0px !important;
+    display: none;
 }
 
 
@@ -78,5 +79,10 @@
   .swiper-slide {
     width: 298px !important;
     height: 310px !important;
+  }
+  
+  .swiper-slide.last {
+    width: 10vw !important;
+    display: block;
   }
 }

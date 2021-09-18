@@ -67,10 +67,6 @@ export default function MeetOurTeam() {
                         <div className="swiper-slide last">
                         </div>
 
-
-
-
-
                     </div>
                     <div className="swiper-pagination"></div>
                 </div>
