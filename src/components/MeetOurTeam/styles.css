@@ -7,7 +7,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  width: 400px !important;
+  width: 360px !important;
   height: 470px !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,6 +70,13 @@
   background: #2F2D2D !important;
 }
 
+@media (max-width: 1700px) {
+  .swiper-slide.last {
+    width: 10vw !important;
+    display: block;
+  }
+}
+
 @media (max-width: 855px) {
   .swiper {
     width: 100%;
@@ -80,9 +87,5 @@
     width: 298px !important;
     height: 310px !important;
   }
-  
-  .swiper-slide.last {
-    width: 10vw !important;
-    display: block;
-  }
+
 }

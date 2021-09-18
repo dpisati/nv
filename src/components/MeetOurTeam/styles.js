@@ -86,7 +86,7 @@ export const MeetOurTeamContainer = styled.div`
         > span {
             position: absolute;
             z-index: 2;
-            width: 280px;
+            width: 180px;
             height: 500px;
             right: 0;
             top: 0px;
@@ -112,7 +112,7 @@ export const MeetOurTeamContainer = styled.div`
             padding-left: 15px;
 
             > span {
-                width: 280px;
+                width: 180px;
                 height: 500px;                
             }
         }
