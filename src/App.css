@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+:root {
+  --white:#FFFFFF;
+  --grey-dark: #2F2D2D;
+  --grey-light: #AFACAC;
+  --black: #000000;
+  --grey-medium: #5B5B5B;
+  --grey-ultra-light: #FAFAFA;
+  --grey-medium-light: #EBEBEB;
+  --grey-dark-light: #CCCCCC;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
 }

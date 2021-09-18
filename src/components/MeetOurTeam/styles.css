@@ -1,0 +1,82 @@
+.swiper {
+    width: 100%;
+    height: 570px;
+    margin-bottom: 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 400px !important;
+  height: 470px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: red;
+}
+
+.swiper-slide.last {
+    width: 10vw !important;    
+}
+
+
+.swiper-slide div p,
+.swiper-slide div span {
+  /* width: 155px; */
+  color: #2F2D2D;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.swiper-slide div span {
+  color: #AFACAC;
+}
+
+.swiper-pagination {
+  position: absolute;
+  top: auto !important;
+  bottom: 0px;
+  width: 92% !important;
+}
+
+.swiper-pagination-progressbar {
+  background: #AFACAC !important;
+}
+
+.swiper-pagination-progressbar-fill {
+  background: #2F2D2D !important;
+}
+
+@media (max-width: 855px) {
+  .swiper {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+  .swiper-slide {
+    width: 298px !important;
+    height: 310px !important;
+  }
+}

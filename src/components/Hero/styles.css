@@ -1,0 +1,32 @@
+.arrowLeft, .arrowRight {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    top: auto;
+    bottom: 30px;
+    left: auto;
+    right: 120px;
+    opacity: .5;
+}
+
+.arrowRight {
+    right: 60px;
+    opacity: 1;
+}
+
+@media (max-width: 850px) {
+    .arrowLeft, .arrowRight {
+        bottom: 20px;
+        right: 55px;
+    }
+    .arrowRight {
+        right: 20px;
+    }
+
+    .arrowRight > img,
+    .arrowLeft > img {
+        height: 30px;
+        width: 15.6px;
+    }
+}
