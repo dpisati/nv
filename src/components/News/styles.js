@@ -33,7 +33,7 @@ export const NewsContainer = styled.div`
     }
 
     .swiper {
-        height: 370px !important;
+        height: 420px !important;
         margin-top: 40px;
         display: flex !important;
         align-items: flex-start !important;
@@ -106,7 +106,7 @@ export const NewsContainer = styled.div`
 
         
         .swiper {
-            height: 300px !important;
+            height: 360px !important;
             margin-top: 40px;
             display: flex !important;
             align-items: flex-start !important;
@@ -114,6 +114,8 @@ export const NewsContainer = styled.div`
 
         .swiper-slide {
             height: 220px !important;
+            margin-left: 0;
+            user-select: none;
 
             h4 {
                 font-size: 20px;

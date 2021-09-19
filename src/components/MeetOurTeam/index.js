@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { MeetOurTeamContainer } from './styles';
 
@@ -10,7 +10,11 @@ import peter from '../../assets/images/3.png'
 import susan from '../../assets/images/4.png'
 
 import 'swiper/swiper.min.css';
+
 export default function MeetOurTeam() {
+
+    const [teamSelected, setTeamSelected] = useState(1);
+
     return (
         <MeetOurTeamContainer>
             <main>
@@ -28,21 +32,33 @@ export default function MeetOurTeam() {
                 <span></span>
                 <div className="swiper mySwiper">
                     <div className="swiper-wrapper">
-                        <div className="swiper-slide">
+                        <div 
+                            className={`swiper-slide ${teamSelected === 1 && "selected"}`}  
+                            onClick={() => setTeamSelected(1)}
+                            onMouseEnter={() => setTeamSelected(1)}
+                        >
                             <img src={josef} alt="Joseph Patel" />
                             <div>
                                 <p>Joseph Patel</p>
                                 <span>Partner</span>
                             </div>
                         </div>
-                        <div className="swiper-slide">
+                        <div 
+                            className={`swiper-slide ${teamSelected === 2 && "selected"}`}  
+                            onClick={() => setTeamSelected(2)}
+                            onMouseEnter={() => setTeamSelected(2)}
+                        >
                             <img src={samantha} alt="Joseph Patel" />
                             <div>
                                 <p>Samantha Peters</p>
                                 <span>Partner</span>
                             </div>
                         </div>
-                        <div className="swiper-slide">
+                        <div 
+                            className={`swiper-slide ${teamSelected === 3 && "selected"}`}  
+                            onClick={() => setTeamSelected(3)}
+                            onMouseEnter={() => setTeamSelected(3)}
+                        >
                             <img src={peter} alt="Joseph Patel" />
                             <div>
                                 <p>Peter Fitsimmons</p>
@@ -51,10 +67,10 @@ export default function MeetOurTeam() {
                         </div>
 
 
-                        <div className="swiper-slide"
-                            style={{
-                                marginRight: '100px'
-                            }}
+                        <div 
+                            className={`swiper-slide ${teamSelected === 4 && "selected"}`}  
+                            onClick={() => setTeamSelected(4)}
+                            onMouseEnter={() => setTeamSelected(4)}
                         >
                             <img src={susan} alt="Joseph Patel" />
                             <div>
