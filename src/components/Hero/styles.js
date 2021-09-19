@@ -12,7 +12,6 @@ export const HeroContainer = styled.div`
 export const Slide = styled.div`
     width: 100vw;
     height: 701px;
-    background-color: cyan;
     display: flex !important;
     justify-content: center;
     text-align: center;

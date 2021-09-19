@@ -53,6 +53,12 @@ export const InnerNavBar = styled.div`
         aside {
             padding-bottom: 18px;
         }
+
+        div {
+            height: 36px;
+            width: 33px;
+            margin-bottom: 25px;
+        }
     }
 
     aside {
@@ -96,8 +102,8 @@ export const InnerNavBar = styled.div`
         cursor: pointer;
         margin-bottom: 17px;
         z-index: 100;
-        height: 46px;
-        width: 43px;
+        height: 36px;
+        width: 33px;
         box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
         img {
             width: 100%;
@@ -121,7 +127,6 @@ export const InnerNavBar = styled.div`
     }
 `;
 
-
 export const BurgerMenu = styled.div`
     position: fixed;
     top: 0px;
@@ -131,6 +136,7 @@ export const BurgerMenu = styled.div`
     background-color: var(--black);
     z-index: 20;
     transition: all 0.2s;
+    padding-top: 20vw;
 
     &.open {
         left: 0;
@@ -145,7 +151,7 @@ export const BurgerMenu = styled.div`
             font-weight: bold;
             font-size: 28px;
             cursor: pointer;
-            margin: 5vh;
+            margin: 4vh;
             
             &::before {
                 content: '';
