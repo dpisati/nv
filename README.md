@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+<h3 align="center">
+    <img src="./.github/logo.png" alt="NV Interactive" width="400" />
+    <br><br>
+    <b>Frontend code test</b>  
+    <br>
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo
 
-## Available Scripts
+- [Open live demo](https://dp-nv.vercel.app/)
 
-In the project directory, you can run:
+# Index
 
-### `yarn start`
+- [About](#about)
+- [Technologies](#technologies)
+- [Preview Web](#preview-web)
+- [How to use](#how-to-use)
+- [Challenges and Difficulties](#challenges-and-difficulties)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a id="about"></a>
 
-### `yarn test`
+## :bookmark: About
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a code challenge provided by NV Interactive to test the frontend knowledge for building a simple user interface design made on InVision in [this](https://invis.io/8310QRX8THZW) link.
+<br>
+<br>
 
-### `yarn build`
+<a id="technologies"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :rocket: Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project is made with:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ReactJS](https://reactjs.org/)
+- [JavaScript](https://www.javascript.com/)
+- [Styled Components](https://styled-components.com/)
+- [Swiper.js](https://swiperjs.com/)
+- [Slick](https://kenwheeler.github.io/slick/)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a id="preview-web"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :heavy_check_mark: :computer: Web
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h1 align="center">
+    <img alt="Web" src=".github/webPreview.gif" width="900px">
+</h1>
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a id="how-to-use"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :fire: How to Use
 
-### Code Splitting
+- ### **Dependencies**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  - Is **required** to install **[Node.js](https://nodejs.org/en/)**
+  - In order to run scripts and install dependencies you need to install a **package manager** (ie: **[YARN](https://yarnpkg.com/)**).
 
-### Analyzing the Bundle Size
+  <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. First step, clone this github repository:
 
-### Making a Progressive Web App
+```sh
+  $ git clone https://github.com/dpisati/nv.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Run the application:
 
-### Advanced Configuration
+```sh
+  # Install dependencies for each folder: mobile, server, web.
+  $ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  # Run the app on localhost.
+  $ yarn start
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `yarn build` fails to minify
+<a id="challenges-and-difficulties"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :question: Challenges and Difficulties
+
+- Swiper bug:
+
+Apparently, the latest version of Swiper (^7) has a few bugs when using React as the frontend tool. Around 4 hours of work was focused on trying to implement and resolve the bug, searching new libraries (slick was implemented on the hero carousel). The solution was implementing the vanilla JavaScript (core) option injecting inside the React syntax.

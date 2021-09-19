@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-    background-color: red;
     width: 100%;
     margin: 0 auto;
     height: 701px;
-    
-
 `;
 
 export const Slide = styled.div`

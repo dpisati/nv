@@ -122,6 +122,4 @@ export const MeetOurTeamContainer = styled.div`
 
 export const TeamSlide = styled.div`
     height: 400px;
-    /* width: 100%; */
-    background-color: red;
 `;
