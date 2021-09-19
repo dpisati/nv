@@ -111,8 +111,10 @@
     margin-bottom: 40px;
 }
   .swiper-slide {
-    width: 298px !important;
+    width: 258px !important;
     height: 310px !important;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .swiper-slide:last-child {
