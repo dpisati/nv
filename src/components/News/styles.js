@@ -15,10 +15,10 @@ export const NewsContainer = styled.div`
         height: 320px;
         right: 0;
         top: 100px;
-        background: rgb(255,255,255);
-        background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
-        background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
-        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
+        background: rgb(250,250,250);
+        background: -moz-linear-gradient(90deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 90%);
+        background: -webkit-linear-gradient(90deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 90%);
+        background: linear-gradient(90deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 90%);
         pointer-events:none;
     }
 
@@ -49,6 +49,8 @@ export const NewsContainer = styled.div`
         font-family: "Open Sans";
         display: flex !important;
         align-items: flex-start !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
 
         h3, span {
             color: #AFACAC;            

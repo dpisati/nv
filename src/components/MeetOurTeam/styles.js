@@ -90,10 +90,10 @@ export const MeetOurTeamContainer = styled.div`
             height: 500px;
             right: 0;
             top: 0px;
-            background: rgb(255,255,255);
-            background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
-            background: -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
-            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
+            background: rgb(250,250,250);
+            background: -moz-linear-gradient(90deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 90%);
+            background: -webkit-linear-gradient(90deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 90%);
+            background: linear-gradient(90deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 90%);
             pointer-events:none;
         }
     }
